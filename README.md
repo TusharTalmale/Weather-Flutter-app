@@ -1,16 +1,33 @@
-# flutter_application_1
+# 🌦️ Flutter Weather App
 
-A new Flutter project.
+A beautiful Flutter weather application that displays current weather, hourly forecasts, and additional weather information using the OpenWeatherMap API. You can search by city (with optional country code) or use your current GPS location.
 
-## Getting Started
+## 🎬 Demo Video
 
-This project is a starting point for a Flutter application.
+[![Watch the video](https://img.youtube.com/vi/umXKlLSedMY/0.jpg)](https://youtu.be/umXKlLSedMY)
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔍 Search weather by city name (with optional country code, e.g., `Mumbai,Ind`)
+- 🌡️ Temperature in Celsius (converted from Kelvin)
+- 🕐 Hourly weather forecast
+- 💧 Humidity, wind speed, and pressure info
+- 🎨 Clean and modern UI with Material Design
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Tech Stack
+
+- **Flutter**
+- **Dart**
+- **OpenWeatherMap API**
+- **HTTP package**
+
+## 📦 Dependencies
+
+Add these to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  intl: ^0.18.1
